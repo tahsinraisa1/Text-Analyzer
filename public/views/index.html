@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script defer src="../js/auth.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sign In</h1>
+      <form id="signInForm" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <button id="signInBtn" type="button">Sign In</button>
+      </form>
+      <p>Don't have an account? <a href="sign-up.html">Sign Up</a></p>
+    </div>
+    <a href="/v1/api/auth/google" class="btn btn-danger"><span class="fa fa-google"></span> SignIn with Google</a>
+    </div>
+</div>
+</body>
+</html> 
+  </body>
+</html>
